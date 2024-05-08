@@ -5,15 +5,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-//import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { UserDisplayComponent } from './user-display/user-display.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
-    UserDisplayComponent
+    UserDisplayComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
